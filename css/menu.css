@@ -1,0 +1,301 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+
+}
+
+
+#header {
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    background-color: #FFF;
+}
+
+.logo {
+    padding: 44.61px 36.88px 48.11px 36px;
+}
+
+#header img {
+    width: 207.17px;
+    height: 184.27px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#header li {
+    font-size: 24px;
+    text-align: center;
+    width: 280px;
+    padding: 50px 0;
+}
+
+#header li:hover {
+    background-color: #014fb5;
+}
+
+#header a:hover {
+    color: #fff;
+}
+
+.main {
+    margin-left: 280px;
+}
+
+.food_ttl {
+    color: #FFF;
+    font-size: 30;
+    background: #014fb5;
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto 0;
+    transform: translateY(30px);
+}
+
+.food_coherence {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food_wrapper {
+    display: flex;
+    border: 3px solid #014fb5;
+    width: 550px;
+    height: 175px;
+    padding: 15px;
+    margin: 100px auto 0;
+}
+
+.photo {
+    padding: 2px;
+    border: 1px solid #000;
+}
+
+.about_food {
+    margin-left: 20px;
+    width: 100%;
+
+}
+
+.sub_title {
+    font-size: 28px;
+}
+
+.allergy_wrapper {
+    font-size: 20px;
+    color: #FFF;
+    background: #014fb5;
+    border-radius: 10px;
+    width: 170px;
+    height: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.allergy_content {
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.allergy {
+    background: #FFF;
+    border: 2px solid #014fb5;
+    border-radius: 50%;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px 0 0;
+
+}
+
+.allergy p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #014fb5;
+}
+
+
+.food_yen {
+    font-size: 25px;
+    width: fit-content;
+    height: 35px;
+    border-bottom: #000 2px solid;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#allergy_jello {
+    font-size: 15px;
+    font-weight: bold;
+    color: #014fb5;
+    border: 2px solid #014fb5;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+.coffee_menu {
+    margin-top: 100px;
+    padding: 30px 0 60px;
+    background: #DD983D;
+    color: #6C4A2C;
+    position: relative;
+}
+
+.coffee_ttl {
+    font-size: 24px;
+    background: #DD983D;
+    width: 350px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 70px;
+    margin: 30px auto 40px;
+}
+
+.coffee_subttl {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#beans1 {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#beans2 {
+    position: absolute;
+    left: 1100px;
+    top: 130px;
+}
+
+.blend_wrapper {
+    display: flex;
+}
+
+.drink_wrapper {
+    display: flex;
+    margin: 70px 60px 0 85px;
+}
+
+
+.coffee_wrapper {
+    display: flex;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: relative;
+    margin-left: 50px;
+}
+
+.coffee_blend {
+    font-size: 27px;
+    margin-top: 20px;
+    line-height: 25px;
+    margin-right: 15px;
+}
+
+.about_coffee {
+    font-size: 17px;
+    margin-top: 65px;
+}
+
+.explanation_wrapper {
+    margin: 70px 0 0 70px;
+    line-height: 35px;
+}
+
+.explanation_wrapper p {
+    font-size: 20px;
+}
+
+.explanation_ttl {
+    font-size: 27px;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.taste_wrapper {
+    display: flex;
+    margin: 30px 0 0 160px;
+}
+
+.taste {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+    border: 3px solid #6C4A2C;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+#arrow {
+    width: 330px;
+    height: 30px;
+    margin: 30px 40px 0;
+}
+
+.yen_wrapper {
+    font-size: 30px;
+    /* border-bottom: 3px solid #6C4A2C; */
+    margin-left: 30%;
+    font-weight: bold;
+}
+
+.yen_wrapper p {
+    border-bottom: 3px solid #6C4A2C;
+}
+
+#beans3 {
+    position: absolute;
+    left: 900px;
+    bottom: 30px;
+}
+
+.information_wrappr {
+    background: #2FC6E0;
+    color: #FFF;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.information_ttl {
+    font-size: 25px;
+}
+
+#caution {
+    line-height: 25px;
+    margin: 30px 0 100px;
+}
+
+#event_form {
+    font-size: 20px;
+    background: #2FC6E0;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #FFF;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 54%;
+}
